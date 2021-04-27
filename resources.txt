@@ -6,3 +6,26 @@ https://www.digitalocean.com/community/tutorials/react-react-with-threejs
 Code Sandbox Example
 https://codesandbox.io/s/rrppl0y8l4?file=/src/App.js
 
+
+Events
+<mesh
+  onClick={(e) => console.log('click')}
+  onContextMenu={(e) => console.log('context menu')}
+  onDoubleClick={(e) => console.log('double click')}
+  onWheel={(e) => console.log('wheel spins')}
+  onPointerUp={(e) => console.log('up')}
+  onPointerDown={(e) => console.log('down')}
+  onPointerOver={(e) => console.log('over')}
+  onPointerOut={(e) => console.log('out')}
+  onPointerEnter={(e) => console.log('enter')}
+  onPointerLeave={(e) => console.log('leave')}
+  onPointerMove={(e) => console.log('move')}
+  onPointerMissed={() => console.log('missed')}
+  onUpdate={(self) => console.log('props have been updated')}
+/>
+
+
+React Hooks
+https://reactjs.org/docs/hooks-reference.html
+https://reactjs.org/docs/hooks-overview.html
+
